@@ -40,6 +40,7 @@ img { display: block; max-width: 100%; }
   margin: 0 auto;
   max-width: 1280px;
   padding: 0 6.25%;
+  
 }
 
 .wordmark, .footer-wordmark {
@@ -383,9 +384,9 @@ img { display: block; max-width: 100%; }
 }
 
 @media (max-width: 700px) {
-  .site-header { height: 64px; padding: 0 6%; }
-  .wordmark { font-size: 15px; gap: 7px; }
-  .wordmark-icon { height: 32px; width: 32px; }
+  .site-header { height: 64px; padding: 0 6%; margin-top: 10px; }
+  .wordmark { font-size: 10px; gap: 5px; }
+  .wordmark-icon { height: 21px; width: 21px; }
   .site-nav { font-size: 10px; gap: 15px; }
   .site-nav > a:first-child { display: none; }
   .site-nav .nav-book { padding: 9px 10px; }
