@@ -389,6 +389,7 @@ img { display: block; max-width: 100%; }
   .site-nav { font-size: 10px; gap: 15px; }
   .site-nav > a:first-child { display: none; }
   .site-nav .nav-book { padding: 9px 10px; }
+  .site-nav .nav-book span { display: none; }
   .section-wrap { padding-left: 7%; padding-right: 7%; }
 
   .hero { gap: 30px; grid-template-columns: 1fr; min-height: auto; padding-bottom: 74px; padding-top: 38px; }
